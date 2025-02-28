@@ -10,7 +10,7 @@ const ThisMonthExpiringDoc = () => {
         {/* Headers */}
         <div className="w-[90%] flex items-center justify-between">
           {headers.map((header, index) => (
-            <p key={index} className="text-[7px] md:text-sm font-[400]">
+            <p key={index} className="text-[5px] md:text-sm font-[400]">
               {header}
             </p>
           ))}
